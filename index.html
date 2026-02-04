@@ -12,15 +12,14 @@
   <meta property="og:title" content="Limitless Fitness Gym | Personal Training, Classes & Memberships">
   <meta property="og:type" content="website">
   <meta property="og:image" content="images/classes-320w.jpg">
-	<meta property="og:url" content="">
+	<meta property="og:url" content="https://isabellaforbes11.github.io/limitlessfitnessgym/">
 
   <meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@">
-	<meta name="twitter:creator" content="@">
+	<meta name="twitter:site" content="@username">
+	<meta name="twitter:creator" content="@username">
 	<meta name="twitter:title" content="Limitless Fitness Gym | Personal Training, Classes & Memberships">
 	<meta name="twitter:description" content="Explore all of the music from">
   <meta name="twitter:image" content="images/classes-320w.jpg">
-	
 </head>
 
 <body>
@@ -43,11 +42,10 @@
   
     <img
       alt="gym with large windows, dark interior, and gym equipment"
-      src="
-        images/facility.jpg
-        images/facility-768w.jpg
-        images/facility-320w.jpg
-        "
+      src="images/facility.jpg"
+      srcset="images/facility.jpg 1024w,
+          images/facility-768w.jpg 769w,
+          images/facility-320w.jpg 320w"
         sizes="70vmin"
     >
 
@@ -92,11 +90,10 @@
       
       <img
       alt="three people doing a lunge with a barbell on their shoulders"
-      src="
-        images/classes.jpg
-        images/classes-768w.jpg
-        images/classes-320w.jpg
-        "
+      src="images/classes.jpg"
+      srcset="images/classes.jpg 1024w,
+      images/classes-768w.jpg 768w,
+      images/classes-320w.jpg 320w"
         sizes="70vmin"
     >
 
@@ -112,11 +109,10 @@
       
       <img
       alt="line of dumbbells on an organized holder"
-      src="
-        images/dumbells.jpg
-        images/dumbells-768w.jpg
-        images/dumbells-320w.jpg
-        "
+      src="images/dumbells.jpg"
+      srcset="images/dumbells.jpg 1024w,
+      images/dumbells-768w.jpg 768w,
+      images/dumbells-320w.jpg 320w"
         sizes="70vmin"
     >
 
@@ -133,7 +129,7 @@
         <h3>Join Limitless Fitness Today!</h3>
         <p>Fill out the form below to kickstart your fitness journey:</p>
         
-        <form action="POST" method="https://wp.zybooks.com/form-viewer.php"></form>
+        <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
         <label for="full-name">Full Name</label>
         <input type="text" id="full-name" name="full-name" required>
 
@@ -152,7 +148,7 @@
         </select>
 
         <label for="goals">Tell us about your fitness goals:</label>
-        <textarea id="goals" name="goals" type="textarea" required></textarea>
+        <textarea id="goals" name="goals" rows="4"></textarea>
 
         <button type="submit">Submit</button>
         </form>
